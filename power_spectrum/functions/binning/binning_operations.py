@@ -6,6 +6,9 @@ import numpy as np
 import random
 
 
+# This script contains functions for various binning operations.
+
+
 def binning(x, number_of_bins, minimum, maximum):
 
     """
