@@ -7,6 +7,11 @@ from scipy.integrate import solve_ivp
 from sympy import symbols, diff, sqrt, lambdify
 
 
+# This script contains functions to convert from the Koposov coordinate phi_1 to the physical length along the stream. 
+# The coefficients (see function integrand) are specifically tailored to the actual stellar positions of the GD-1 stream, 
+# as studied in Ibata et al. (2019)
+
+
 
 def integrand(phi_f_value):
 
