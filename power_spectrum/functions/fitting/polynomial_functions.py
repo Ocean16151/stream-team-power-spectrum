@@ -6,6 +6,9 @@ import numpy as np
 from scipy.optimize import curve_fit
 
 
+# This script contains polynomial fitting functions of various degrees, where the uncertainties can be chosen to be Gaussian or Poisson.
+
+
 # Quadratic function with more precise iteration process
 def quadratic_function_iteration(x, y, x_err, y_err, tol=1e-8, max_iter=300):
     """
