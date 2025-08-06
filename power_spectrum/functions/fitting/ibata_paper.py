@@ -5,7 +5,7 @@
 import numpy as np
 
 
-# his function(s) is (are) specifically tailored to the binning of the counts along the Koposov coordinate for the data from the paper by Ibata et al. 2019.
+# This function(s) is (are) specifically tailored to the binning of the counts along the Koposov coordinate for the data from the paper by Ibata et al. 2019.
 
 
 def ibata_fitting(phi1):
